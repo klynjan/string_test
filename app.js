@@ -27,10 +27,11 @@ function returnLength(element){
 
 function returnUpperCaseWord(element){
     const myUpperCaseWord = element.value.toUpperCase();
-    return myUl.innerHTML += `<li>All Upper case : ${myUpperCaseWord}</li>`;
+    return myUl.innerHTML += `<li>All Upper case: ${myUpperCaseWord}</li>`;
 }
 
 function returnLowerCaseWord(element){
     const myLowerCaseWord = element.value.toLowerCase();
-    return myUl.innerHTML += `<li>All Lower case : ${myLowerCaseWord}</li>`;
-}
+    return myUl.innerHTML += `<li>All Lower case: ${myLowerCaseWord}</li>`;
+} 
+
